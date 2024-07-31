@@ -21,11 +21,12 @@ export const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a href=""
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3
-                rounded-md"
+                rounded-md hover:bg-gradient-to-l"
         >
           Start for free
         </a>
-        <a href="" className="py-3 px-4 mx-3 rounded-md border">Documentation</a>
+        <a href="" className="py-3 px-4 mx-3 rounded-md border-white
+        border hover:border-orange-900 rounded-lg transition duration-200">Documentaion</a>
       </div>
       <div className="flex mt-10 justify-center">
         <video

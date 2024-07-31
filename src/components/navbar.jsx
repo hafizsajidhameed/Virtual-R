@@ -25,12 +25,14 @@ const NavBar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="" className="py-2 px-4 border rounded-md hover:bg-gradient-to-r from-orange-500 to-orange-800 hover:border-transparent ">
+            <a href="" className="py-2 px-4 border border-white rounded-md hover:bg-orange-700
+               border hover:border-orange-900 rounded-lg transition duration-200">
               Sing In
             </a>
             <a
               href=""
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md
+              hover:bg-gradient-to-l"
             >
               Create an account
             </a>
