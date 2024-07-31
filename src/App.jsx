@@ -2,7 +2,9 @@ import { FeatureSection } from "./components/FeatureSection";
 import NavBar from "./components/navbar";
 import  {HeroSection}  from "./components/HeroSection";
 import { Workflow } from "./components/Workflow";
-import { Pricing } from "./Pricing";
+import { Pricing } from "./components/Pricing";
+import { Testimonial } from "./components/Testimonial";
+import { Footer1 } from "./components/Footer1";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <FeatureSection />
       <Workflow />
       <Pricing />
+      <Testimonial />
+      <Footer1 />
     </div>
    </>
   );
