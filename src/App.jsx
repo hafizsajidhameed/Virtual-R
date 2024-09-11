@@ -4,7 +4,7 @@ import  {HeroSection}  from "./components/HeroSection";
 import { Workflow } from "./components/Workflow";
 import { Pricing } from "./components/Pricing";
 import { Testimonial } from "./components/Testimonial";
-import { Footer1 } from "./components/Footer1";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Workflow />
       <Pricing />
       <Testimonial />
-      <Footer1 />
+      <Footer />
     </div>
    </>
   );
